@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE polprojfile>
+<ppfml version="2.00" project="Test_Bookmap_1" type="4">
+ <windowlist defaultwindow="NewWindow">
+  <window name="NewWindow" x="5%" y="5%" width="90%" height="90%" viewtype="doublepane" workspacestyle="DEFAULT" toolbar="off" locationbar="off" menu="off" resizable="yes" statusbar="off" usecurrentwindowsettings="yes" caption="NewWindow">
+   <elements><element name="BrowseSequence" Present="yes" /><element name="SearchInput" Present="no" />
+   </elements>
+   <agents defaultagent="toc">
+    <agent>toc
+    </agent>
+    <agent>ndx
+    </agent>
+    <agent>nls
+    </agent>
+    <agent>gls
+    </agent>
+   </agents>
+  </window>
+ </windowlist>
+ <contextmap>
+  <contextentry id="1" page="Test_Bookmap_1/Downloads/index.html">
+  </contextentry>
+ </contextmap>
+ <topiclist defaulttopic="Test_Bookmap_1\Downloads\Introduction.html">
+  <topic>Test_Bookmap_1\Downloads\Introduction.html
+  </topic>
+  <topic>Test_Bookmap_1\Downloads\Linking_in_DITA.html
+  </topic>
+  <topic>Test_Bookmap_1\Downloads\Profile_test_topic_1.html
+  </topic>
+  <topic>Test_Bookmap_1\Downloads\Profile_test_topic_2.html
+  </topic>
+  <topic>Test_Bookmap_1\Downloads\Profiling_content.html
+  </topic>
+  <topic>Test_Bookmap_1\Downloads\Reusing_content.html
+  </topic>
+  <topic>Test_Bookmap_1\Downloads\Steps_for_topic_reuse.html
+  </topic>
+  <topic>Test_Bookmap_1\Downloads\Test_Topic_1.html
+  </topic>
+  <topic>Test_Bookmap_1\Downloads\Test_Topic_2.html
+  </topic>
+ </topiclist>
+ <projectincludes>
+ </projectincludes>
+ <filenamemap>
+  <filenameentry moniker="wh_languagetype">
+   <filename>en_US
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="nls">
+   <filename>.nla
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="wh_lngfile">
+   <filename>index.lng
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="wh_stoplist">
+   <filename>index.stp
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="startpage">
+   <filename>index.html
+   </filename>
+  </filenameentry>
+ </filenamemap>
+</ppfml>
